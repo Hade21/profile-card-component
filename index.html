@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Profile card component</title>
@@ -15,21 +15,31 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="body-bg">
+    <div class="card-container">
+      <div class="background">
+        <img src="./images/bg-pattern-card.svg" alt="">
+      </div>
+      <div class="white-bg">
+        <img src="./images/image-victor.jpg" alt="" class="profile">
+        <div class="text">
+          <div class="name">
+            <p class="profile-name">Victor Crest</p>
+            <p class="age">26</p>
+          </div>
+          <p class="city">London</p>
+          <div class="social-media">
+            <p class="number followers">80K<span>Followers</span></p>
+            <p class="number likes">803K<span>Likes</span></p>
+            <p class="number photos">1.4K<span>Photos</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/hade21">Rohman</a>.
+    </div>
   </div>
 </body>
 </html>
